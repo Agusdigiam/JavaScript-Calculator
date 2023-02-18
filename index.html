@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js"></script>
+  </head>
+  <body>
+    <div class="calculadora">
+      <h1>Calculadora</h1>
+      <div class="inputs">
+        <input type="text" id="valor1">
+        <select id="operacion">
+          <option value="sumar">+</option>
+          <option value="restar">-</option>
+          <option value="multiplicar">*</option>
+          <option value="dividir">/</option>
+        </select>
+        <input type="text" id="valor2">
+        <button onclick="calcular()">Calcular</button>
+      </div>
+      <p id="resultado"></p>
+    </div>
+  </body>
+</html>
